@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline vs Block vs Inline-Block</title>
+    <style>
+      .display {
+        /* display: inline; */
+        /* display: block; */
+        /* display: inline-block; */
+        width: 40%;
+        /* background-color: red; */
+      }
+      .brown {
+        color:brown;
+        font-weight: bold;
+      }
+      .ques {
+        color:black;
+        font-weight: bolder;
+        font-size: large;
+      }
+      .blue {
+        color: blue;
+        margin-left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <head></head>
+    <main>
+        <span class="check">HTML</span>
+      <span class="check">CSS</span>
+      <span class="check">JavaScript</span>
+      <br />
+      <br />
+      <hr />
+      <p class="ques">
+        Q2. This exercise helps understand the difference between inline, block,
+        and inline-block display types. On an HTML page add 3 span elements each
+        with the words HTML, CSS, and JavaScript. Select the 3 elements using
+        the span selector in an embedded style tag on the page and set the width
+        to 40%.
+      </p>
+
+      <p class="brown">
+        1) How do the elements appear? Does the width have any effect? Why / Why
+        not?
+      </p>
+
+      <p class="blue">
+        => The elements appear in inline form. No, the width doesn't have any effect.
+      </p>
+
+      <p class="brown">
+        2) Set display to inline. Does it cause any change? Why / Why not?
+      </p>
+
+      <p class="blue">
+       => It does not cause any changes because span is an inline container. This is because we are trying to change inline element to inline itelf.
+      </p>
+
+      <p class="brown">
+        3) Change display to block. What change does it cause?
+      </p>
+
+      <p class="blue">
+        => It is now a block element that makes span according to row. In block element we can also specify the width and height according to our need.
+      </p>
+
+      <p class="brown">
+        4) Set display to inline-block. What change does it cause?
+      </p>
+
+      <p class="blue">
+        => It is an inline-block element we can specify the width and height according to our need which is not possible in inline element.
+      </p>
+
+      <p class="brown">
+        5) In conclusion, summarize the differences you noticed in the 3 behavior
+        of the 3 display types. Search for other differences and jot them down
+        mentally / physically!
+      </p>
+
+      <p class="blue">
+        * Inline element => In inline element all the elements are placed horizontally side by side. An inline element does not start on a new line. In this type we cannot change the height and width of the element.<br>
+        <br>
+        * Block element => A block element occupies the entire horizontal space of its parent element, and vertical space equal to the height of its contents. In this type we can change the height and width of the element<br>
+        <br>
+        * Inline-block element => In inline-block all the elements are placed horizontally side by side. We can set height and width values
+      </p>
+    </main>
+    <footer></footer>
+  </body>
+</html>

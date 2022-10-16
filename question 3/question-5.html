@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+        .navigation ul li{
+         list-style-type: none;
+         display: inline-block;
+         padding: 0;
+         margin: 0;
+         
+        }
+        fieldset{
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+     </style>
+</head>
+<body>
+    <header style="margin: 0%;">
+        <nav class="navigation" style="margin: 0%;">
+            <ul style="margin: 0;">
+                <li style="margin: 0;"> <a href="daily_news_consulting_pvt_ltd.html">Home</a></li>&nbsp;
+                <li style="margin: 0;"> <a href="portfolio.html">portfolio</a></li>&nbsp;
+                <li style="margin: 0;"> <a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <h1> DAILY NEWS CONSULTING PVT LTD</h1>
+    </header>
+    <main>
+        <h2> Contact Us</h2>
+<h3>Phone : <a href="+001-123-456-7890">+001-123-456-7890</a></h3>
+<h3>email : <a href="hello@gmail.com">hello@gmail.com</a></h3>
+
+    <h2> DROP A MESSAGE</h2>
+    <p>please drop a message here we will get back to You within 2 working days </p>
+    <p> fields marked with <span style="color:red"> *</span>are required to filled </p>
+    <form action="" method="post">
+        <div class="contact-form">
+            <label for="your-name" class="form-label">Your Name</label>
+            <div class="contact-form-deatils">
+                <input type="text" class="forms"id="your-name" name="your-name" placeholder="Jhon Doe" required>
+            </div>
+           
+        </div>
+     <div class="contact-form">
+      <label for="email" class="form-label">
+        Your Email
+      </label>
+      <div>
+        <input type="email" id="email",class="forms" placeholder="john.doe@example.com" required>
+      </div>
+     </div>
+     <div class="contact-form">
+        <label for="select-service" class="form-label">
+            What are you looking to build?
+        </label>
+        <div class="contact-form-details">
+            <select name="select-service" id="select-service">
+                <option value=""> choose one </option>
+                <option value="blog"> blog</option>
+                <option value="store"> store</option>
+                <option value="game"> game</option>
+                <option value="other"> Other</option>
+
+            </select>
+        </div>
+     </div>
+     <div>
+        <fieldset>
+            <legend for="email">
+                platforms you plan to support
+            </legend>
+            <div>
+                <label><input type="checkbox" name="paltform" id="web" value="web" checked>Web</label>
+                <label><input type="checkbox" name="paltform" id="mobile" value="mobile" checked>mobile</label>
+
+                <label><input type="checkbox" name="paltform" id="desktop" value="desktop" checked>desktop</label>
+
+            </div>
+        </fieldset>
+     </div>
+     <div>
+        <label for="name" class="form-label">
+            message
+        </label>
+        <div>
+            <textarea name="message" id="message" class="contact-form" required></textarea>
+        </div>
+     </div>
+     <div>
+        <input type="reset" value="reset"/>
+        <input type="submit" value="send message"/>
+     </div>
+    </form>
+    </main>
+    <footer> 
+        <h2>
+            Thank You For Your Interest</h2>
+            <a href="https://www.educationforindia.org/contact"> @Contact Us</a>
+    <!-- footer ended -->
+    </footer>
+</body>
+</html>
